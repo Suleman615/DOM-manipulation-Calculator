@@ -6,7 +6,6 @@ let currentInput = '';
 buttons.forEach(button => {
     button.addEventListener('click', () => {
         const btnName = button.getAttribute('btn-name');
-        console.log(btnName)
         if (btnName === 'c') {
             currentInput = '';
             result.textContent = '0'
