@@ -8,6 +8,7 @@ buttons.forEach(button => {
         const btnName = button.getAttribute('btn-name');
         if (btnName === 'c') {
             currentInput = '';
+            expression.textContent='0'
             result.textContent = '0'
         } else if (btnName == '=') {
             expression.textContent = currentInput
